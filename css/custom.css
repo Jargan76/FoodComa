@@ -1,0 +1,217 @@
+﻿
+body {
+	background-color: #f2f5d6;
+}
+
+h2 {
+	font-family: 'Francois One', sans-serif;
+	font-size: 21px;
+	line-height: 1.2em;
+	font-weight: 400;
+	color: #555555;
+}
+
+hr {
+	  border-top: 1px solid #bbbbbb;
+}
+
+img {
+	width: 100%;
+	padding-bottom: 15px;
+}
+
+
+/*  Side bar styles 
+-------------------------------- */
+
+
+.blog-sidebar {
+	padding-left: 30px;
+	padding-right: 30px;
+}	
+
+.sidebar-module p {
+    text-align: center;
+    font-size: 15px;
+    font-weight: 200;
+    letter-spacing: 2px;
+	line-height: 1.7em;
+}
+
+
+.sidebar-module-inset {
+    padding: 15px;
+    background-color: #f5f5f5;
+    border-radius: 4px;
+    border: 5px dotted #a1c6cc;
+}
+
+#sign-up-header {
+	color: #4ca299;
+    text-shadow: 1px 1px 2px #64ebf0;
+	text-align: justify;
+}	
+	
+/*  Nav bar styles
+--------------------------------------------*/
+
+.navbar ul.dropdown-menu li.dropdown-header {
+	color: #4ca299;
+	font-weight: 600;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	line-height: 1.7em;
+	font-size: 16px;
+}
+
+.navbar ul.dropdown-menu {
+	text-align: center;
+	font-size: 16px;
+	font-weight: 800;
+}
+
+#facebook {
+	color: blue;
+}
+#facebook:hover {
+	color: #ffffff;
+	background-color: #aaaaaa;
+}
+
+#twitter {
+	color: lightblue;
+}
+#twitter:hover {
+	color: #ffffff;
+	background-color: #aaaaaa;
+}
+
+#instagram {
+	color: brown;
+}
+#instagram:hover {
+	color: #ffffff;
+	background-color: #aaaaaa;
+}
+
+#pintrest {
+	color: red;
+}
+#pintrest:hover {
+	color: #ffffff;
+	background-color: #aaaaaa;
+}
+
+#stumble {
+	color: orange;
+}
+#stumble:hover {
+	color: #ffffff;
+	background-color: #aaaaaa;
+}
+
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
+  color: #ffffff;
+  background-color: #4ca299;
+}
+
+
+.navbar-default {
+    background-color: #a1c6cc;
+    border-color: #bbbbbb;
+}
+
+.navbar-nav>li>a {
+	font-weight: 700;
+}
+
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+  color: #ffffff;
+  background-color: #4ca299;
+}
+
+.navbar-nav>li>a:hover {
+	border-bottom: 3px solid #4ca299;
+	padding-bottom: 12px;
+}
+
+.navbar-brand {
+	font-size: 175%;
+}
+
+.blog-post-meta a {
+	text-transform: capitalize;
+	font-size: 12px;
+}
+
+.btn-group-xs>.btn, .btn-xs {
+	padding: 2px 3px;
+	font-size: 12px;
+	line-height: 1.5;
+	border-radius: 3px;
+	letter-spacing: 0px;
+	text-transform: lowercase;
+	background-color: #4ca299;
+	margin-right: 15px;
+}
+
+.btn-group-xs>.btn, .btn-xs:hover {
+	background-color: #3d827a;
+} 
+
+#main {
+	padding-top: 80px;
+}
+
+#coma_wrap1 {
+	display: inline;
+}
+
+#coma_logo1 {
+	font-family: 'Diplomata', cursive;
+	color: #4ca299;
+	font-size: 100%;
+	letter-spacing: 3px;
+	text-shadow: 1px 2px 2px #aaaaaa;
+	}
+
+#coma_logo2 {
+	font-family: 'Diplomata', cursive;
+	color: #4ca299;
+	letter-spacing: 3px;
+	text-shadow: 1px 2px 2px #aaaaaa;
+	}	
+
+a.navbar-brand i.fa {
+	color: #555555;
+	padding-right: 5px;
+}	
+	
+#share-buttons img {
+	width: 35px;
+	padding: 5px;
+	border: 0;
+	box-shadow: 0;
+	display: inline-box;
+}
+
+/*  Responsive style
+------------------------------------------------------*/
+
+@media screen and (min-width: 1199px) {
+	body {
+		
+	}
+	.container {
+		
+	}
+}
+
+
+
+
+
+
+
+
+

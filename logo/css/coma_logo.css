@@ -1,0 +1,81 @@
+﻿@charset "utf-8";
+/* CSS Document */
+/* Logo for Food Coma*/
+/* Author :Jargan76 Studio  */
+
+body {
+	font-size: 350%;
+	text-align: center;
+}
+
+
+footer {
+	position: absolute;
+    bottom: 0;
+    width: 100%;
+	height: 10%;
+	background-color: #f8f8f8;
+	border: 1px solid #e7e7e7;
+	font-variant: small-caps;
+}
+
+input {
+	color: red;
+}
+hr {
+
+	border: 2px solid orange;
+	outline: 1px solid black;
+	width: 45%;
+}
+
+nav {
+		height: 8%;
+}
+
+.container1 {
+	Padding-top: 0;
+	margin-top: 0;
+	position: relative;
+	top: 60px;
+}
+
+#coma_logo {
+	font-family: 'Oswald', sans-serif;
+	font-size: 100%;
+	padding: 0,0,0,0;
+	margin: 0,0,0,0;
+	color: #000000;
+	font-variant: capitalize;
+	}
+
+/*
+#coma_wrap {
+	border: 2px solid black;
+	background-color: #000000;
+	outline: 3px solid black;
+}
+*/
+
+#coma_logo1 {
+	font-family: 'Diplomata', cursive;
+	font-size: 100%;
+	padding: 0,0,0,0;
+	margin: 0,0,0,0;
+	color: #000000;
+	font-variant: capitalize;
+		
+	}
+	
+#coma_logo2 {
+	font-family: 'Asset', cursive;
+	font-size: 100%;
+	padding: 0,0,0,0;
+	margin: 0,0,0,0;
+	color: #000000;
+	font-variant: capitalize;
+	}	
+
+#answer {
+	font-size: 1.17em;
+}	

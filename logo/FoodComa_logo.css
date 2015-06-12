@@ -1,0 +1,16 @@
+﻿#logo {     
+ 	font-family: 'Droid Serif', serif;
+	color: #A3A3C2;
+	text-shadow: 4px 4px 3px #A38566;
+	font-variant: small-caps;
+	padding: 0px 0px;
+	margin:0px 0px;
+	font-size: 150%;
+	
+}
+
+#logo2 {     /* copyright */
+    font-size: 7%;
+	padding: 0px 0px;
+	margin:0px 0px;
+}
