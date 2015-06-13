@@ -43,13 +43,18 @@ img {
     padding: 15px;
     background-color: #f5f5f5;
     border-radius: 4px;
-    border: 5px dotted #a1c6cc;
+    outline: 3px dashed #a1c6cc;
 }
 
 #sign-up-header {
 	color: #4ca299;
     text-shadow: 1px 1px 2px #64ebf0;
-	text-align: justify;
+	text-align: center;
+	border-bottom: 1px solid #bbbbbb;
+	border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+	line-height: 1.7em;
+	
 }	
 	
 /*  Nav bar styles
@@ -139,6 +144,11 @@ img {
 	font-size: 175%;
 }
 
+a.navbar-brand i.fa {
+	color: #555555;
+	padding-right: 5px;
+}	
+
 .blog-post-meta a {
 	text-transform: capitalize;
 	font-size: 12px;
@@ -159,12 +169,70 @@ img {
 	background-color: #3d827a;
 } 
 
+.btn-default {
+    color: #ffffff;
+    background-color: #4ca299;
+    border-color: #bbbbbb;
+    margin-top: 15px;
+}
+
+.btn-default:hover {
+    color: #ffffff;
+    background-color: #4ca299;
+    border-color: #bbbbbb;
+    margin-top: 15px;
+}
+
 #main {
 	padding-top: 80px;
 }
 
+/* Post Box Styles
+---------------------------------------*/
+#posts-box {
+    padding: 0;
+    border: 3px solid #A1C6CC;
+    border-top: 0;
+    border-radius: 3px;
+    margin-top: 30px;
+}
+#posts-box h4 {
+    font-size: 16px;
+    text-transform: uppercase;
+    background-color: #A1C6CC;
+    color: #555;
+    padding: 12px;
+    text-align: center;
+    font-weight: 600;
+    font-family: 'Open Sans';
+    letter-spacing: 2px;
+    margin: 0;
+}
+#posts-box ol {
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 0;
+}
+#posts-box li {
+    font-size: 16px;
+    padding: 12px;
+    border-bottom: 3px solid #A1C6CC;
+    min-height: 60px;
+    line-height: 20px;
+}
+#posts-box li:last-child {
+    border-bottom: 0;
+}
+#posts-box a {
+    color: #555;
+}
+
+
+/*  Food Coma Styles
+--------------------------------------*/
+
 #coma_wrap1 {
-	display: inline;
+	display: inline-block;
 }
 
 #coma_logo1 {
@@ -182,31 +250,54 @@ img {
 	text-shadow: 1px 2px 2px #aaaaaa;
 	}	
 
-a.navbar-brand i.fa {
-	color: #555555;
-	padding-right: 5px;
-}	
-	
-#share-buttons img {
-	width: 35px;
-	padding: 5px;
-	border: 0;
-	box-shadow: 0;
-	display: inline-box;
+/* Jarga76Studio Styles
+--------------------------------------------*/
+
+#jargan {       /* Logo Jargan    Studio*/
+	font-family: 'Lobster', cursive;
+	color: #c2c2d6;
+    text-shadow: 4px 4px 3px #333300;
+	font-variant: small-caps;
+	padding: 0px 0px;
+	margin:0px 0px;
 }
+
+#jargan1 {			/* Logo 76 */
+    font-family: 'Sancreek', cursive;
+	color: #ba7a19;
+	font-size: 105%;
+	font-outline: .5px solid purple;
+	text-shadow: 4px 4px 3px #333300;
+	padding: 0px 0px;
+	margin:0px 0px;
+}
+
+#jargan2 {     /* copyright */
+    font-size: 5%;
+	padding: 0px 0px;
+	margin:0px 0px;
+}
+
+      
+#jargan_wrap {
+	background-color: #337ab7;
+    border: 1px solid #2952cc;
+}
+
+	
 
 /*  Responsive style
 ------------------------------------------------------*/
 
-@media screen and (min-width: 1199px) {
-	body {
-		
-	}
-	.container {
-		
-	}
+@media (max-width: 992px) {
+	  .navbar-nav>li>a {
+	  font-weight: 700;
+	  font-size: 14px;
 }
-
+	.navbar-brand {
+     font-size: 150%;
+}
+} 
 
 
 

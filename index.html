@@ -23,9 +23,10 @@
 	<link href='http://fonts.googleapis.com/css?family=Francois+One&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
 	<!-- Custom Styles for Food Coma-->
 	<link href="css/custom.css" rel="stylesheet" />
-
-    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
-    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+	
+	<!-- SumoMe widget -->
+	<script src="//load.sumome.com/" data-sumo-site-id="ee9efccabf5361d7294f9fc88e9540390d63c183f9c432f5ede623a6618a1bd5" async="async"></script>
+    
     <script src="../../assets/js/ie-emulation-modes-warning.js"></script>
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -67,8 +68,25 @@
 					<li ><a href="#" id="instagram"><i class="fa fa-instagram"></i>     Instagram</a></li>
 					<li ><a href="#" id="pintrest"><i class="fa fa-pinterest-square"></i>     Pintrest</a></li>
 					<li ><a href="#" id="stumble"><i class="fa fa-stumbleupon"></i>     Stumble</a></li>
-              </ul>
-            </li>
+					</ul>
+					</li>
+				<li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Archive<span class="caret"></span></a>
+					<ul class="dropdown-menu" role="menu">
+					  <li><a href="#">June/15</a></li>
+					  <li><a href="#">May/15</a></li>
+					  <li><a href="#">April/15</a></li>
+					  <li><a href="#">March/15</a></li>
+					  <li><a href="#">February/15</a></li>
+					  <li><a href="#">January/15</a></li>
+					  <li><a href="#">December/14</a></li>
+					  <li><a href="#">November/14</a></li>
+					  <li><a href="#">October/14</a></li>
+					  <li><a href="#">September/14</a></li>
+					  <li><a href="#">August/14</a></li>
+					  <li><a href="#">Older</a></li>
+               </ul>
+             </li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>
@@ -80,7 +98,7 @@
         <div class="col-sm-8 blog-main">
 
           <div class="blog-post">
-            <h2 id="parm" class="blog-post-title">Chicken parm you taste so good!!</h2>
+            <h2 id="parm" class="blog-post-title">Chicken parm you taste so good</h2>
             <p class="blog-post-meta"><a type="button" class="btn btn-xs btn-info" >12 comments</a>March 29<sup><small>th</small></sup>, 2015 by <a href="#">Mia</a></p>
 				
 				<img src="images/chicken_parm.jpg" alt="Chicken Parm" class="img-rounded" />
@@ -139,33 +157,19 @@
 				<h4>This is for Ads</h4>
 				<img data-src="holder.js/100%x180" alt="100%x180" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9InllcyI/PjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMTcxIiBoZWlnaHQ9IjE4MCIgdmlld0JveD0iMCAwIDE3MSAxODAiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjxkZWZzLz48cmVjdCB3aWR0aD0iMTcxIiBoZWlnaHQ9IjE4MCIgZmlsbD0iI0VFRUVFRSIvPjxnPjx0ZXh0IHg9IjYxIiB5PSI5MCIgc3R5bGU9ImZpbGw6I0FBQUFBQTtmb250LXdlaWdodDpib2xkO2ZvbnQtZmFtaWx5OkFyaWFsLCBIZWx2ZXRpY2EsIE9wZW4gU2Fucywgc2Fucy1zZXJpZiwgbW9ub3NwYWNlO2ZvbnQtc2l6ZToxMHB0O2RvbWluYW50LWJhc2VsaW5lOmNlbnRyYWwiPjE3MXgxODA8L3RleHQ+PC9nPjwvc3ZnPg==" data-holder-rendered="true" style="height: 180px; width: 100%; display: block;">
 			</div>
-			<div class="sidebar-module">
-            <h4>Top Posts</h4>
-            <ol class="list-unstyled">
-              <li><a href="#parm">Chicken Parmesan</a></li>
-              <li><a href="#">Chicken Noodle Soup</a></li>
-              <li><a href="#">Facebook</a></li>
-            </ol>
-          </div>
-			
+			<div id="posts-box">
+			  <h4>Most Popular Posts</h4>
+			  <ol>
+					<li><a href="#">This is the most popular post</a></li>
+					<li><a href="#">This is the second most popular post</a></li>
+					<li><a href="#">This posts was many people's favorites</a></li>
+					<li><a href="#">This is just a longer title to make sure it goes to second line</a></li>
+			  </ol>
+			</div><br>
+			</div> <!-- /.blog-sidebar -->
+			<div class="col-sm-1 col-sm-offset-2 blog-sidebar">		
           <div class="sidebar-module">
-            <h4>Archives</h4>
-            <ol class="list-unstyled">
-				 <li><a href="#">June 2015</a></li>
-              <li><a href="#">may 2015</a></li>
-              <li><a href="#">April 2015</a></li>
-              <li><a href="#">March 2015</a></li>
-              <li><a href="#">February 2015</a></li>
-              <li><a href="#">January 2015</a></li>
-              <li class="divider"></li>
-              <li><a href="#">December 2014</a></li>
-              <li><a href="#">November 2014</a></li>
-              <li><a href="#">October 2014</a></li>
-              <li><a href="#">September 2014</a></li>
-              <li><a href="#">August 2014</a></li>
-				 <li><a href="#">Older</a></li>
-              
-            </ol>
+            
           </div>
           
         </div><!-- /.blog-sidebar -->
@@ -175,10 +179,9 @@
     </div><!-- /.container -->
 
     <footer class="blog-footer">
-      <p>Blog template built for <a href="http://getbootstrap.com">Bootstrap</a> by <a href="https://twitter.com/mdo">@mdo</a>.</p>
-      <p>
-        <a href="#">Back to top</a>
-      </p>
+      <p>This Blog was Created by: <span id="jargan_wrap"><span id="jargan">Jargan</span><span id="jargan1">76</span><span id="jargan">Studios<small id="jargan2">&copy </small></span></span></p>
+	  <p></p>
+      
     </footer>
 
 
