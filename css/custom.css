@@ -163,6 +163,7 @@ a.navbar-brand i.fa {
 	text-transform: lowercase;
 	background-color: #4ca299;
 	margin-right: 15px;
+	margin-bottom:10px;
 }
 
 .btn-group-xs>.btn, .btn-xs:hover {
