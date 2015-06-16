@@ -1,0 +1,83 @@
+﻿
+
+h2 {
+  font-family: 'Francois One', sans-serif;
+  font-size: 26px;
+  line-height: 1.7em;
+  font-weight: 700;
+  color: #555555;
+  letter-spacing: 2px;
+  border: 3px solid #A1C6CC;
+  padding-left: 20px;
+  background-color: #A1C6CC;
+}
+
+.indicates-required {
+  visibility: hidden;
+}
+
+#mce-FNAME {
+  margin-left: 31px;
+  margin-bottom: 10px
+}
+
+#small-form {
+  width: 400px;
+  height: 175px;
+  background-color: rgb(76, 162, 153);
+  padding-left: 20px;
+  margin-top: 50px;
+  
+}
+
+#mc-embedded-subscribe {
+  margin-top: 15px;
+  margin-left: 125px;
+  border: 2px solid #555;
+  font-weight: 800;
+}
+
+#mce-EMAIL {
+  display: block;
+  width: 100%;
+  height: 34px;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #555;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+  box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+  -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+  -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+  transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+
+/*Responsive design for form
+--------------------------------------------*/
+
+@media (max-width: 600px ){
+  h2 {
+    font-size: 22px;
+  }	
+  label {
+	font-size: medium;
+  }
+  #mce-FNAME {
+	margin-left: 28px;
+  }
+}
+
+@media (max-width: 450px) {
+  #small-form {
+	width: 355px;
+	padding-left: 10px;
+  }
+  h2 {
+	padding-left: 10px;
+  }
+}
+
